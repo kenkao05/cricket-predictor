@@ -129,7 +129,7 @@ p, label, .stMarkdown { color: rgba(255,255,255,0.85); }
 # LOAD DATA / MODELS
 # ============================================================================
 
-DATA_DIR = Path(__file__).parent
+DATA_DIR = Path(__file__).parent / "data"
 
 @st.cache_resource
 def load_pickle(name):
